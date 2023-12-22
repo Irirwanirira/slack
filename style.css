@@ -217,3 +217,109 @@ body{
     margin-top: 2rem;
     cursor: pointer;
 }
+
+.Create_account{
+    display: flex;
+    /* margin-left: 5rem; */
+    justify-items: center;
+    padding-top: 8rem;
+}
+
+.Create_account a{
+    text-decoration: none;
+    color: #828282;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.55px;
+}
+
+.Create_account a span{
+    color:#7F265B;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-side{
+        display: none;
+    }
+
+    .form-side{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+    .form{
+        margin-top: 0;
+    }
+
+    .form_elements h1{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .business_style{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .sign_with_google{
+        width: 100%;
+        margin: 0;
+    }
+
+    .sign_with_email{
+        margin: 0;
+        text-align: center;
+    }
+
+    .form{
+        margin-top: 0;
+    }
+
+    .form label{
+        width: 100%;
+        text-align: center;
+    }
+
+    .input{
+        width: 100%;
+    }
+
+    .check_box_forget{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .button{
+        width: 100%;
+    }
+
+    .Create_account{
+        padding-top: 0;
+    }
+
+    .Create_account a{
+        text-align: center;
+    }
+}
