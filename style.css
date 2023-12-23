@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,400&display=swap');
 *{
     margin: 0;
     padding:0;
@@ -8,13 +9,11 @@ body{
     background-color: #FFE6C9;
     padding: 10px;
     height: 100vh;
-}
+    font-family: 'Nunito Sans', sans-serif;}
 
 .container{
     position: relative;
     height: 95vh;
-    /* display: flex; */
-    /* justify-content: space-between; */
     padding: 10px;
     border-radius: 20px;
     background-color: white;
@@ -77,6 +76,188 @@ body{
     left: 0;
 }
 
+.chat_left{
+    position: absolute;
+    top: 30%;
+    left: 23%;
+}
+
+.chat_right{
+    position: absolute;
+    top: 32%;
+    left: 55%;
+}
+
+.white_curve{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 17%;
+}
+
+.curve_sphere{
+    position: absolute;
+    top: 4%;
+    left: 0;
+    width: 17%;
+}
+
+.round_big_ball{
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    z-index: 1;
+}
+
+.round_big_right_side{
+    position: absolute;
+    bottom: 43%;
+    right: 39%;
+    width: 2%;
+}
+
+.color_less_ball{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    width: 2%;
+}
+
+.brown_ball{
+    position: absolute;
+    bottom: 8%;
+    left: 9%;
+}
+
+.brown_ball_close_left{
+    position: absolute;
+    bottom: 21%;
+    left: 3%;
+}
+
+.black_ball{
+    position: absolute;
+    bottom: 25%;
+    left: 9%;
+}
+
+.black_close{
+    position: absolute;
+    bottom: 44%;
+    left: 27%;
+}
+
+.black_space{
+    position: absolute;
+    bottom: 40%;
+    left: 25%;
+}
+
+.black_bottom{
+    position: absolute;
+    bottom: 4%;
+    right: 33%;
+}
+
+.brown_bottom{
+    position: absolute;
+    bottom: 17%;
+    right: 30%;
+}
+
+.brown_right_close{
+    position: absolute;
+    bottom: 40%;
+    right: 35%;
+}
+
+.brown_right_space{
+    position: absolute;
+    bottom: 35%;
+    right: 30%;
+}
+
+.black_right_space{
+    position: absolute;
+    bottom: 37%;
+    right: 30%;
+}
+
+.brown_right_up{
+    position: absolute;
+    top: 30%;
+    right: 30%;
+}
+
+.brown_right_upper{
+    position: absolute;
+    top: 20%;
+    right: 35%;
+}
+
+.black_right_upper{
+    position: absolute;
+    top: 18%;
+    right: 33%;
+}
+
+.brown_right_close_up{
+    position: absolute;
+    top: 12%;
+    right: 25%;
+    width: 3px;
+}
+
+.black_right_close_up{
+    position: absolute;
+    top: 5%;
+    right: 30%;
+}
+
+.black_right_close_upper{
+    position: absolute;
+    top: 6%;
+    right: 37%;
+}
+
+.black_up{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.brown_up{
+    position: absolute;
+    top: 45%;
+    left: 12%;
+}
+
+.black_up_left{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+.leaf_let{
+    position: absolute;
+    bottom: 45%;
+    left: 15%;
+}
+
+.brown_top{
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+
+.leaf_let_white{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+
+
+
 .down_sphere{
     position: absolute;
     bottom: 0;
@@ -93,7 +274,6 @@ body{
     background-color: white;
     display: flex;
     flex-direction: column;
-    /* margin-top: 10rem; */
     z-index: 10;
     align-items: center;
 }
